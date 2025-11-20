@@ -9,6 +9,9 @@ Data from all harvested sources. The schema of the files are as follows:
 * address: the physical address of the venue
 * phone: the phone number of the venue
 * url: the URL of the venue's site
+* longitude: the longitude of the venue
+* latitude: the latitude of the venue
+
 
 ## fb-venues.csv
 * name: name of the venue, in the lannguage entered by the owners/administrators
@@ -26,3 +29,14 @@ Data from all harvested sources. The schema of the files are as follows:
 * enTitle: name of the venue in the English language
 * longitude: the longitude of the venue
 * latitude: the latitude of the venue
+
+## homogenized-venues.csv
+* title: name of the venue in the Greek language
+* title_en: name of the venue in the English language
+* website: the URL of the venue's site (if sources list different URLs, only one is listed here)
+* phone: the phone number of the venue 
+* address: the physical address of the venue in the Greek language
+* address_en: the physical address of the venue in the English language
+* email: the email address of the venue
+* coords: the coordinates of the venue
+
